@@ -35,7 +35,7 @@ header>input{
 }
 .aside{
     flex-basis: 270px;
-    flex-grow: 0.5;   
+    flex-grow: 0.1;   
     padding: 60px;
     height: 600px;
     overflow: auto;
