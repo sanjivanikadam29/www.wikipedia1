@@ -90,10 +90,17 @@ header>input{
           letter-spacing: 1.5px;
           line-height: 20px;
           padding: 3%;
-
+         
 }
-.article h1{
+.txt{
+    margin-top: -50px;
+    text-align: justify;
+    letter-spacing: 1.5px;
+    line-height: 20px;
+}
+.txt>h1{
     border-bottom: 1px solid gray;
+    padding: 1%;
 }
 .sub-article{
     display: flex;
@@ -160,7 +167,6 @@ header>input{
  .aside{
     flex-grow: 0.1;   
  }
-
 }
 @media screen and (max-width:850px) {
    .details{
@@ -185,10 +191,13 @@ header>input{
     flex-direction: column;
     /* background-color: antiquewhite; */
 }
+.txt h1{
+    margin-top: 30px;
+}
   
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:600px){
  header input{
     padding-right: 120px;
  }
@@ -196,9 +205,74 @@ header>input{
     justify-content: center;
  }
  .left-nav{
-    padding-bottom: 50px;
-    /* background-color: red; */
+    padding-bottom: 20px;
  }
+ .right-nav{
+    padding-bottom: 10px;
+ }
+ .txt h1{
+    margin-top: 50px;
+ }
+}
+
+@media screen and (max-width:300px){
+     header input{
+        padding-right: 30px;
+        margin-top: 10px;
+        /* background-color: aqua; */
+        
+     }
+     header{
+        padding-left: 80px;
+        padding-right: 80px;
+     }
+     header img{
+         width: 200px;
+     }
+     header .navbar a{
+       
+       padding-left: 20px;
+       padding-right: 20px;  
+       font-size: 20px;  
+       text-decoration: none;
+     }
+     header .navbar{
+        margin-top: -10px;
+     }
+     .aside{
+        margin-top: 40px;
+        margin-left: 150px;
+        padding-right: 200px;
+        font-size: 20px;
+     }
+     .combine-body .heading{
+         padding-right: 80px;
+         padding-left: 180px;
+     }
+     .combine-body .navigation{
+           justify-content: center;
+           padding-left: 200px;
+           padding-right:10px;
+           background-color: aqua;
+     }
+     .navigation a{
+        padding: 0.5%;
+     }
+     .left-nav{
+        padding-bottom: 10px;
+    
+     }
+     .right-nav{
+        padding-bottom: 10px;
+     }
+     .details{
+        padding-left: 210px;
+        padding-right: 80px;
+     }
+     .txt{
+        padding-left: 170px;
+     }
+
 }
 
 
