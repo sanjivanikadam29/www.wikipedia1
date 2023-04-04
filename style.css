@@ -223,7 +223,7 @@ header>input{
  }
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:450px){
      header input{
         padding-right: 30px;       
         margin-top: 20px;        
