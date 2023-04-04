@@ -251,6 +251,10 @@ header>input{
         padding-right: 250px;
         font-size: 20px;
      }
+     .article p{
+       padding-left: 130px;
+       padding-right: 20px;
+     }
      .combine-body .heading{
          padding-right: 80px;
          padding-left: 180px;
@@ -275,8 +279,9 @@ header>input{
         padding-right: 80px;
      }
      .txt{
-        padding-left: 110px;
-        margin-top: 80px;
+        padding-left: 130px;
+        padding-right: 20px;
+        margin-top: -40px;
      }
 
 }
