@@ -20,6 +20,7 @@ header>img{
 
 header>input{
     flex-basis: 400px;
+    
 }
 .navbar{
     display: flex;
@@ -92,11 +93,13 @@ header>input{
           padding: 3%;
          
 }
-.txt{
-    margin-top: -50px;
+.txt p{
+    margin-top: -20px;
     text-align: justify;
     letter-spacing: 1.5px;
     line-height: 20px;
+    padding: 3%;
+
 }
 .txt>h1{
     border-bottom: 1px solid gray;
@@ -119,8 +122,6 @@ header>input{
     flex-basis: 300px;
     flex-grow: 2;
     margin: 7% auto;
-    /* flex-direction: column; */
-    /* align-items: center; */
     text-align: center;
    
 }
@@ -167,6 +168,13 @@ header>input{
  .aside{
     flex-grow: 0.1;   
  }
+ .txt{
+    margin-top: -100px;
+ }
+ header input{
+      margin-top: 20px;
+      padding-right: 20px;
+ }
 }
 @media screen and (max-width:850px) {
    .details{
@@ -174,10 +182,11 @@ header>input{
    }
    
    header input{
-    padding-right:300px;
+    padding-right:420px;
     flex-basis: 50px;
     margin-bottom: 50px;
-
+    margin-top: 50px;
+    padding-top: 20px;
    }
    header .navbar{
     flex-basis: 50px;
@@ -189,7 +198,6 @@ header>input{
    }
    header{
     flex-direction: column;
-    /* background-color: antiquewhite; */
 }
 .txt h1{
     margin-top: 30px;
@@ -217,10 +225,8 @@ header>input{
 
 @media screen and (max-width:300px){
      header input{
-        padding-right: 30px;
-        margin-top: 10px;
-        /* background-color: aqua; */
-        
+        padding-right: 30px;       
+        margin-top: 20px;        
      }
      header{
         padding-left: 80px;
@@ -253,7 +259,6 @@ header>input{
            justify-content: center;
            padding-left: 200px;
            padding-right:10px;
-           background-color: aqua;
      }
      .navigation a{
         padding: 0.5%;
@@ -271,6 +276,7 @@ header>input{
      }
      .txt{
         padding-left: 170px;
+        margin-top: -30px;
      }
 
 }
