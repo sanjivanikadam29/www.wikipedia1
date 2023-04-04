@@ -175,6 +175,9 @@ header>input{
       margin-top: 20px;
       padding-right: 20px;
  }
+ .txt{
+    margin-top: 10px;
+ }
 }
 @media screen and (max-width:850px) {
    .details{
@@ -201,6 +204,9 @@ header>input{
 }
 .txt h1{
     margin-top: 30px;
+}
+.txt{
+    margin-top: -10px;
 }
   
 }
@@ -282,6 +288,10 @@ header>input{
         padding-left: 130px;
         padding-right: 20px;
         margin-top: -40px;
+     }
+     .sub-article{
+         padding-left: 150px;
+         padding-right: 100px;
      }
 
 }
