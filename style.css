@@ -24,8 +24,9 @@ header>input{
 }
 .navbar{
     display: flex;
-    flex-basis: 300px;
-    justify-content: space-evenly;
+    flex-basis: 350px;
+    flex-direction: column;
+    
      
 }
 /* ================================================================================ */
@@ -33,6 +34,7 @@ header>input{
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
+        /* background-color: burlywood; */
 }
 .aside{
     flex-basis: 270px;
@@ -40,7 +42,7 @@ header>input{
     padding: 60px;
     height: 600px;
     overflow: auto;
-    /* background-color: bisque; */
+    /* background-color: bisque;     */
 }
 .aside>p{
     border-bottom: 2px solid gray;
@@ -183,7 +185,7 @@ header>input{
    .details{
     flex-grow: 0.3;
    }
-   
+ 
    header input{
     padding-right:420px;
     flex-basis: 50px;
@@ -208,6 +210,9 @@ header>input{
 .txt{
     margin-top: -10px;
 }
+.aside{
+    /* background-color: aqua; */
+}
   
 }
 
@@ -229,14 +234,14 @@ header>input{
  }
 }
 
-@media screen and (max-width:450px){
+@media screen and (max-width:400px){
      header input{
         padding-right: 30px;       
         margin-top: 20px;        
      }
      header{
-        padding-left: 150px;
-        padding-right: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
      }
      header img{
          width: 200px;
@@ -247,51 +252,42 @@ header>input{
        padding-right: 20px;  
        font-size: 20px;  
        text-decoration: none;
+       flex-direction: column;
      }
      header .navbar{
         margin-top: -10px;
      }
      .aside{
         margin-top: 40px;
-        margin-left: 150px;
-        padding-right: 250px;
         font-size: 20px;
+        flex-basis: 350px;
+        flex-grow: 1;  
+        justify-content: flex-start;
+        /* background-color: aqua; */
      }
      .article p{
-       padding-left: 130px;
+       padding-left: 20px;
        padding-right: 20px;
      }
      .combine-body .heading{
-         padding-right: 80px;
-         padding-left: 180px;
-     }
-     .combine-body .navigation{
-           justify-content: center;
-           padding-left: 200px;
-           padding-right:10px;
-     }
-     .navigation a{
-        padding: 0.5%;
-     }
-     .left-nav{
-        padding-bottom: 10px;
-    
-     }
-     .right-nav{
-        padding-bottom: 10px;
-     }
-     .details{
-        padding-left: 210px;
-        padding-right: 80px;
-     }
-     .txt{
-        padding-left: 130px;
+         padding-right: 20px;
+         padding-left: 20px;
+         flex-direction: column;
+         padding-top: 50px;
+     }  
+    .article p{
+        padding-left: 20px;
         padding-right: 20px;
-        margin-top: -40px;
+    }
+     .txt{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: -20px;
+        /* background-color: aqua; */
      }
      .sub-article{
-         padding-left: 150px;
-         padding-right: 100px;
+         padding-left: 20px;
+         padding-right: 20px;
      }
 
 }
